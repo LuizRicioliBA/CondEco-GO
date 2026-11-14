@@ -1,6 +1,3 @@
-[CondEco-GO.md](https://github.com/user-attachments/files/34842254/CondEco-GO.md)
-![Logo pequeno do CondEco-GO](condeco-go-small.png)
-
 # 🌿 CondEco-GO
 
 ### Sistema de apoio à gestão ambiental de condomínios
@@ -13,7 +10,7 @@ Uma plataforma web para organizar informações ambientais e facilitar o acompan
 
 ## 🎯 Sobre o projeto
 
-O **CondEco-GO** foi desenvolvido para apoiar a organização das informações ambientais de condomínios em Goiás. Em vez de manter dados espalhados por planilhas e documentos, a equipe pode registrar informações em um só lugar, acompanhar sua evolução e consultar relatórios.
+O **CondEco-GO** foi desenvolvido para apoiar a organização das informações ambientais de condomínios. Em vez de manter dados espalhados por planilhas e documentos, a equipe pode registrar informações em um só lugar, acompanhar sua evolução e consultar relatórios.
 
 O sistema é voltado ao **responsável administrativo** e ao **síndico**, com contas e permissões próprias. Seu objetivo é facilitar o acompanhamento e apoiar decisões administrativas, sem substituir a conferência dos dados ou uma avaliação técnica ambiental.
 
