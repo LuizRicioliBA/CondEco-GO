@@ -1,4 +1,4 @@
-![Logo pequeno do CondEco-GO](public/images/condeco-go-small.png)
+![Logo pequeno do CondEco-GO](assets/condeco-go-small.png)
 
 # 🌿 CondEco-GO
 
