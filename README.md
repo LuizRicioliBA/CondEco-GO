@@ -1,5 +1,3 @@
-![Logo pequeno do CondEco-GO](assets/condeco-go-small.png)
-
 # 🌿 CondEco-GO
 
 ### Sistema de apoio à gestão ambiental de condomínios
