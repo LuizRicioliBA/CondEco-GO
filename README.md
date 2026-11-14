@@ -1,3 +1,6 @@
+[CondEco-GO.md](https://github.com/user-attachments/files/34842254/CondEco-GO.md)
+![Logo pequeno do CondEco-GO](condeco-go-small.png)
+
 # 🌿 CondEco-GO
 
 ### Sistema de apoio à gestão ambiental de condomínios
@@ -10,7 +13,7 @@ Uma plataforma web para organizar informações ambientais e facilitar o acompan
 
 ## 🎯 Sobre o projeto
 
-O **CondEco-GO** foi desenvolvido para apoiar a organização das informações ambientais de condomínios. Em vez de manter dados espalhados por planilhas e documentos, a equipe pode registrar informações em um só lugar, acompanhar sua evolução e consultar relatórios.
+O **CondEco-GO** foi desenvolvido para apoiar a organização das informações ambientais de condomínios em Goiás. Em vez de manter dados espalhados por planilhas e documentos, a equipe pode registrar informações em um só lugar, acompanhar sua evolução e consultar relatórios.
 
 O sistema é voltado ao **responsável administrativo** e ao **síndico**, com contas e permissões próprias. Seu objetivo é facilitar o acompanhamento e apoiar decisões administrativas, sem substituir a conferência dos dados ou uma avaliação técnica ambiental.
 
@@ -26,13 +29,13 @@ O sistema é voltado ao **responsável administrativo** e ao **síndico**, com c
 - **Dados do condomínio:** atualização de informações e organização de blocos e quantidades de apartamentos.
 - **Acesso por perfil:** autenticação e permissões associadas ao usuário e ao condomínio.
 
-## 🧭 Como funciona
+## 🗂️ Como funciona
 
-```text
-Usuário → Interface web → API → Supabase / PostgreSQL
-```
+1. **Registre as informações:** usuários autorizados cadastram os consumos de água e energia, os resíduos e as ocorrências. Também podem organizar metas e ações ambientais.
+2. **Acompanhe o condomínio:** consulte no painel os indicadores, os registros recentes, as ocorrências pendentes e o andamento das ações.
+3. **Gere relatórios e planeje providências:** consulte os dados por mês ou ano e use as informações para acompanhar metas e organizar as próximas ações ambientais.
 
-O usuário interage com a aplicação pelo navegador. A interface envia solicitações à API, que valida os dados, verifica o acesso e consulta ou atualiza os registros do condomínio.
+Por trás da interface, o fluxo é: **Navegador → API Node.js/Express → Supabase/PostgreSQL**. Os dados são enviados à API, que valida a solicitação e verifica o acesso antes de consultar ou atualizar os registros do condomínio.
 
 ## 🧰 Tecnologias
 
